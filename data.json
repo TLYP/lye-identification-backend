@@ -1,0 +1,185 @@
+{
+    "matches": [
+        {
+            "id": "371709972",
+            "offset": 196.50853125,
+            "timeskew": 0.024784088,
+            "frequencyskew": 0.017987728
+        }
+    ],
+    "location": {
+        "accuracy": 0.01
+    },
+    "timestamp": 3292791549,
+    "timezone": "Europe/Moscow",
+    "track": {
+        "layout": "5",
+        "type": "MUSIC",
+        "key": "366700882",
+        "title": "Anti Depression, Teil 1",
+        "subtitle": "432 Hz",
+        "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/a2/0c/94a20cac-9fe0-6cf5-b4d1-baa1ca0d5059/cover_10125155.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/a2/0c/94a20cac-9fe0-6cf5-b4d1-baa1ca0d5059/cover_10125155.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/a2/0c/94a20cac-9fe0-6cf5-b4d1-baa1ca0d5059/cover_10125155.jpg/400x400cc.jpg",
+            "joecolor": "b:f8f517p:400c05s:4b1b04t:653b09q:6e4608"
+        },
+        "share": {
+            "subject": "Anti Depression, Teil 1 - 432 Hz",
+            "text": "Anti Depression, Teil 1 by 432 Hz",
+            "href": "https://www.shazam.com/track/366700882/anti-depression-teil-1",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/a2/0c/94a20cac-9fe0-6cf5-b4d1-baa1ca0d5059/cover_10125155.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Anti Depression, Teil 1 by 432 Hz.",
+            "html": "https://www.shazam.com/snippets/email-share/366700882?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/366700882"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1261891379"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9b/34/cb/9b34cb95-1ecf-0ed4-f7d3-adb433efd398/mzaf_14741168932938309909.plus.aac.ep.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN IN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "intent",
+                            "uri": "intent://music.apple.com/gb/album/anti-depression-teil-1/1261891372?i=1261891379&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end"
+                        },
+                        {
+                            "name": "hub:applemusic:connect",
+                            "type": "applemusicconnect",
+                            "id": "1261891379",
+                            "uri": "https://unsupported.shazam.com"
+                        },
+                        {
+                            "name": "hub:applemusic:androidstore",
+                            "type": "uri",
+                            "uri": "https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "providers": [
+                {
+                    "caption": "Open in Spotify",
+                    "images": {
+                        "overflow": "https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png",
+                        "default": "https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png"
+                    },
+                    "actions": [
+                        {
+                            "name": "hub:spotify:searchdeeplink",
+                            "type": "uri",
+                            "uri": "spotify:search:Anti%20Depression%2C%20Teil%201%20432%20Hz"
+                        }
+                    ],
+                    "type": "SPOTIFY"
+                },
+                {
+                    "caption": "Open in YouTube Music",
+                    "images": {
+                        "overflow": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png",
+                        "default": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png"
+                    },
+                    "actions": [
+                        {
+                            "name": "hub:youtubemusic:androiddeeplink",
+                            "type": "uri",
+                            "uri": "https://music.youtube.com/search?q=Anti+Depression%2C+Teil+1+432+Hz&feature=shazam"
+                        }
+                    ],
+                    "type": "YOUTUBEMUSIC"
+                },
+                {
+                    "caption": "Open in Deezer",
+                    "images": {
+                        "overflow": "https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png",
+                        "default": "https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png"
+                    },
+                    "actions": [
+                        {
+                            "name": "hub:deezer:searchdeeplink",
+                            "type": "uri",
+                            "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Anti+Depression%2C+Teil+1%27%20artist%3A%27432+Hz%27%7D"
+                        }
+                    ],
+                    "type": "DEEZER"
+                }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+        },
+        "sections": [
+            {
+                "type": "SONG",
+                "metapages": [
+                    {
+                        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/a2/0c/94a20cac-9fe0-6cf5-b4d1-baa1ca0d5059/cover_10125155.jpg/400x400cc.jpg",
+                        "caption": "Anti Depression, Teil 1"
+                    }
+                ],
+                "tabname": "Song",
+                "metadata": [
+                    {
+                        "title": "Album",
+                        "text": "Anti Depression"
+                    },
+                    {
+                        "title": "Label",
+                        "text": "Balance"
+                    },
+                    {
+                        "title": "Released",
+                        "text": "2017"
+                    }
+                ]
+            },
+            {
+                "type": "RELATED",
+                "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-366700882?startFrom=0&pageSize=20&connected=",
+                "tabname": "Related"
+            }
+        ],
+        "url": "https://www.shazam.com/track/366700882/anti-depression-teil-1",
+        "artists": [
+            {
+                "id": "42",
+                "adamid": "596374805"
+            }
+        ],
+        "isrc": "ATB571702081",
+        "genres": {
+            "primary": "New Age"
+        },
+        "urlparams": {
+            "{tracktitle}": "Anti+Depression%2C+Teil+1",
+            "{trackartist}": "432+Hz"
+        },
+        "highlightsurls": {},
+        "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-366700882?startFrom=0&pageSize=20&connected=",
+        "albumadamid": "1261891372"
+    },
+    "tagid": "B674963C-D64C-45F9-A737-B0E38194A374"
+}
