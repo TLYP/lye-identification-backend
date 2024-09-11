@@ -1,9 +1,9 @@
-import deezer.client
 from flask import Flask, jsonify, request
-from shazamio import Shazam, Serialize
+from shazamio import Shazam
 import base64
 import json
-import deezer
+from spotify_utils import EnhancedJSONEncoder, spotify_search
+
 
 app = Flask(__name__)
 
@@ -14,6 +14,24 @@ async def hello_world():
     return jsonify(data)
 
 
+@app.route("/spotify_search", methods=["GET"])
+async def spotify_meta():
+    query = request.args.get("q")
+
+    if not query:
+        return jsonify({"code": 1})
+
+    songs = spotify_search(query)
+
+    data = {
+        "code": 0,
+        "query": query,
+        "tracks": json.loads(json.dumps(songs, indent=4, cls=EnhancedJSONEncoder)),
+    }
+
+    return jsonify(data)
+
+
 @app.route("/identify", methods=["POST"])
 async def identify():
     shazam = Shazam()
@@ -21,34 +39,22 @@ async def identify():
 
     byte = base64.b64decode(data)
 
-    info = await shazam.recognize_song(byte)
+    try:
+        info = await shazam.recognize_song(byte)
+    except Exception as e:
+        print("error while recognize", e, ";")
+        return jsonify({"code": 1})
 
-    for match in info["matches"]:
-        track_data = await shazam.track_about(match["id"])
-        track = Serialize.track(track_data)
+    title = info["track"]["title"]
 
-        print(track.title)
+    songs = spotify_search(title)
 
-    with open("data.json", "w") as f:
-        json.dump(info, f, indent=4)
+    data = {
+        "code": 0,
+        "query": title,
+        "tracks": json.loads(json.dumps(songs, indent=4, cls=EnhancedJSONEncoder)),
+    }
 
-    # with deezer.Client() as client:
-    #     result = client.search(track=info["track"]["title"], artist="Mili")
-    #     if len(result) == 0:
-    #         return jsonify({"code": "1", "message": "song not found"})
-
-    #     for track in result:
-    #         print(json.dumps(track.as_dict(), indent=4))
-
-    #     # track: deezer.Track = result[0]
-    #     # print(json.dumps(track.as_dict(), indent=4))
-
-    #     # print(json.dumps(result, indent=4))
-
-    # with open("data.json", "w") as f:
-    #     json.dump(info, f, indent=4)
-
-    data = {"hello": "world"}
     return jsonify(data)
 
 

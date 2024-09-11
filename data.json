@@ -1,185 +1,174 @@
 {
-    "matches": [
-        {
-            "id": "371709972",
-            "offset": 196.50853125,
-            "timeskew": 0.024784088,
-            "frequencyskew": 0.017987728
-        }
-    ],
-    "location": {
-        "accuracy": 0.01
+    "layout": "5",
+    "type": "MUSIC",
+    "key": "700684526",
+    "title": "Through Patches of Violet",
+    "subtitle": "Mili",
+    "images": {
+        "background": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/78/59/7d/78597d3d-aa43-1ba5-df09-d7e6089f6db2/c046a127-438b-496d-b0f0-a0d087bd33e9_ami-identity-4a5880f03204af46bbddf7126156dbc8-2023-06-02T08-37-44.245Z_cropped.png/800x800cc.jpg",
+        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/46/9d/23469d09-0468-b919-d09d-1a3bf0a94ef0/0198448359221_cover.jpg/400x400cc.jpg",
+        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/46/9d/23469d09-0468-b919-d09d-1a3bf0a94ef0/0198448359221_cover.jpg/400x400cc.jpg",
+        "joecolor": "b:201847p:9ea6f5s:a469f5t:858ad2q:8a59d2"
     },
-    "timestamp": 3292791549,
-    "timezone": "Europe/Moscow",
-    "track": {
-        "layout": "5",
-        "type": "MUSIC",
-        "key": "366700882",
-        "title": "Anti Depression, Teil 1",
-        "subtitle": "432 Hz",
-        "images": {
-            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/a2/0c/94a20cac-9fe0-6cf5-b4d1-baa1ca0d5059/cover_10125155.jpg/400x400cc.jpg",
-            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/a2/0c/94a20cac-9fe0-6cf5-b4d1-baa1ca0d5059/cover_10125155.jpg/400x400cc.jpg",
-            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/a2/0c/94a20cac-9fe0-6cf5-b4d1-baa1ca0d5059/cover_10125155.jpg/400x400cc.jpg",
-            "joecolor": "b:f8f517p:400c05s:4b1b04t:653b09q:6e4608"
-        },
-        "share": {
-            "subject": "Anti Depression, Teil 1 - 432 Hz",
-            "text": "Anti Depression, Teil 1 by 432 Hz",
-            "href": "https://www.shazam.com/track/366700882/anti-depression-teil-1",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/a2/0c/94a20cac-9fe0-6cf5-b4d1-baa1ca0d5059/cover_10125155.jpg/400x400cc.jpg",
-            "twitter": "I used @Shazam to discover Anti Depression, Teil 1 by 432 Hz.",
-            "html": "https://www.shazam.com/snippets/email-share/366700882?lang=en-US&country=GB",
-            "snapchat": "https://www.shazam.com/partner/sc/track/366700882"
-        },
-        "hub": {
-            "type": "APPLEMUSIC",
-            "image": "https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png",
-            "actions": [
-                {
-                    "name": "apple",
-                    "type": "applemusicplay",
-                    "id": "1261891379"
-                },
-                {
-                    "name": "apple",
-                    "type": "uri",
-                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9b/34/cb/9b34cb95-1ecf-0ed4-f7d3-adb433efd398/mzaf_14741168932938309909.plus.aac.ep.m4a"
-                }
-            ],
-            "options": [
-                {
-                    "caption": "OPEN IN",
-                    "actions": [
-                        {
-                            "name": "hub:applemusic:deeplink",
-                            "type": "intent",
-                            "uri": "intent://music.apple.com/gb/album/anti-depression-teil-1/1261891372?i=1261891379&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end"
-                        },
-                        {
-                            "name": "hub:applemusic:connect",
-                            "type": "applemusicconnect",
-                            "id": "1261891379",
-                            "uri": "https://unsupported.shazam.com"
-                        },
-                        {
-                            "name": "hub:applemusic:androidstore",
-                            "type": "uri",
-                            "uri": "https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am"
-                        }
-                    ],
-                    "beacondata": {
-                        "type": "open",
-                        "providername": "applemusic"
-                    },
-                    "image": "https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png",
-                    "type": "open",
-                    "listcaption": "Open in Apple Music",
-                    "overflowimage": "https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png",
-                    "colouroverflowimage": false,
-                    "providername": "applemusic"
-                }
-            ],
-            "providers": [
-                {
-                    "caption": "Open in Spotify",
-                    "images": {
-                        "overflow": "https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png",
-                        "default": "https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png"
-                    },
-                    "actions": [
-                        {
-                            "name": "hub:spotify:searchdeeplink",
-                            "type": "uri",
-                            "uri": "spotify:search:Anti%20Depression%2C%20Teil%201%20432%20Hz"
-                        }
-                    ],
-                    "type": "SPOTIFY"
-                },
-                {
-                    "caption": "Open in YouTube Music",
-                    "images": {
-                        "overflow": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png",
-                        "default": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png"
-                    },
-                    "actions": [
-                        {
-                            "name": "hub:youtubemusic:androiddeeplink",
-                            "type": "uri",
-                            "uri": "https://music.youtube.com/search?q=Anti+Depression%2C+Teil+1+432+Hz&feature=shazam"
-                        }
-                    ],
-                    "type": "YOUTUBEMUSIC"
-                },
-                {
-                    "caption": "Open in Deezer",
-                    "images": {
-                        "overflow": "https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png",
-                        "default": "https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png"
-                    },
-                    "actions": [
-                        {
-                            "name": "hub:deezer:searchdeeplink",
-                            "type": "uri",
-                            "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Anti+Depression%2C+Teil+1%27%20artist%3A%27432+Hz%27%7D"
-                        }
-                    ],
-                    "type": "DEEZER"
-                }
-            ],
-            "explicit": false,
-            "displayname": "APPLE MUSIC"
-        },
-        "sections": [
+    "share": {
+        "subject": "Through Patches of Violet - Mili",
+        "text": "Through Patches of Violet by Mili",
+        "href": "https://www.shazam.com/track/700684526/through-patches-of-violet",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/46/9d/23469d09-0468-b919-d09d-1a3bf0a94ef0/0198448359221_cover.jpg/400x400cc.jpg",
+        "twitter": "I used @Shazam to discover Through Patches of Violet by Mili.",
+        "html": "https://www.shazam.com/snippets/email-share/700684526?lang=en-US&country=GB",
+        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/78/59/7d/78597d3d-aa43-1ba5-df09-d7e6089f6db2/c046a127-438b-496d-b0f0-a0d087bd33e9_ami-identity-4a5880f03204af46bbddf7126156dbc8-2023-06-02T08-37-44.245Z_cropped.png/800x800cc.jpg",
+        "snapchat": "https://www.shazam.com/partner/sc/track/700684526"
+    },
+    "hub": {
+        "type": "APPLEMUSIC",
+        "image": "https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png",
+        "actions": [
             {
-                "type": "SONG",
-                "metapages": [
-                    {
-                        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/a2/0c/94a20cac-9fe0-6cf5-b4d1-baa1ca0d5059/cover_10125155.jpg/400x400cc.jpg",
-                        "caption": "Anti Depression, Teil 1"
-                    }
-                ],
-                "tabname": "Song",
-                "metadata": [
-                    {
-                        "title": "Album",
-                        "text": "Anti Depression"
-                    },
-                    {
-                        "title": "Label",
-                        "text": "Balance"
-                    },
-                    {
-                        "title": "Released",
-                        "text": "2017"
-                    }
-                ]
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1745712470"
             },
             {
-                "type": "RELATED",
-                "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-366700882?startFrom=0&pageSize=20&connected=",
-                "tabname": "Related"
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/5e/5c/f55e5cb9-323b-b8bb-cc8d-3bea5b3d7ccf/mzaf_11720938217118812954.plus.aac.ep.m4a"
             }
         ],
-        "url": "https://www.shazam.com/track/366700882/anti-depression-teil-1",
-        "artists": [
+        "options": [
             {
-                "id": "42",
-                "adamid": "596374805"
+                "caption": "OPEN IN",
+                "actions": [
+                    {
+                        "name": "hub:applemusic:deeplink",
+                        "type": "intent",
+                        "uri": "intent://music.apple.com/gb/album/through-patches-of-violet/1745712153?i=1745712470&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end"
+                    },
+                    {
+                        "name": "hub:applemusic:connect",
+                        "type": "applemusicconnect",
+                        "id": "1745712470",
+                        "uri": "https://unsupported.shazam.com"
+                    },
+                    {
+                        "name": "hub:applemusic:androidstore",
+                        "type": "uri",
+                        "uri": "https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am"
+                    }
+                ],
+                "beacondata": {
+                    "type": "open",
+                    "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
             }
         ],
-        "isrc": "ATB571702081",
-        "genres": {
-            "primary": "New Age"
-        },
-        "urlparams": {
-            "{tracktitle}": "Anti+Depression%2C+Teil+1",
-            "{trackartist}": "432+Hz"
-        },
-        "highlightsurls": {},
-        "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-366700882?startFrom=0&pageSize=20&connected=",
-        "albumadamid": "1261891372"
+        "providers": [
+            {
+                "caption": "Open in Spotify",
+                "images": {
+                    "overflow": "https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png",
+                    "default": "https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                    {
+                        "name": "hub:spotify:searchdeeplink",
+                        "type": "uri",
+                        "uri": "spotify:search:Through%20Patches%20of%20Violet%20Mili"
+                    }
+                ],
+                "type": "SPOTIFY"
+            },
+            {
+                "caption": "Open in YouTube Music",
+                "images": {
+                    "overflow": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png",
+                    "default": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png"
+                },
+                "actions": [
+                    {
+                        "name": "hub:youtubemusic:androiddeeplink",
+                        "type": "uri",
+                        "uri": "https://music.youtube.com/search?q=Through+Patches+of+Violet+Mili&feature=shazam"
+                    }
+                ],
+                "type": "YOUTUBEMUSIC"
+            },
+            {
+                "caption": "Open in Deezer",
+                "images": {
+                    "overflow": "https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png",
+                    "default": "https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                    {
+                        "name": "hub:deezer:searchdeeplink",
+                        "type": "uri",
+                        "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Through+Patches+of+Violet%27%20artist%3A%27Mili%27%7D"
+                    }
+                ],
+                "type": "DEEZER"
+            }
+        ],
+        "explicit": false,
+        "displayname": "APPLE MUSIC"
     },
-    "tagid": "B674963C-D64C-45F9-A737-B0E38194A374"
+    "sections": [
+        {
+            "type": "SONG",
+            "metapages": [
+                {
+                    "image": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/78/59/7d/78597d3d-aa43-1ba5-df09-d7e6089f6db2/c046a127-438b-496d-b0f0-a0d087bd33e9_ami-identity-4a5880f03204af46bbddf7126156dbc8-2023-06-02T08-37-44.245Z_cropped.png/800x800cc.jpg",
+                    "caption": "Mili"
+                },
+                {
+                    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/46/9d/23469d09-0468-b919-d09d-1a3bf0a94ef0/0198448359221_cover.jpg/400x400cc.jpg",
+                    "caption": "Through Patches of Violet"
+                }
+            ],
+            "tabname": "Song",
+            "metadata": [
+                {
+                    "title": "Album",
+                    "text": "Through Patches of Violet - Single"
+                },
+                {
+                    "title": "Label",
+                    "text": "HAAKO Records"
+                },
+                {
+                    "title": "Released",
+                    "text": "2024"
+                }
+            ]
+        },
+        {
+            "type": "RELATED",
+            "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-700684526?startFrom=0&pageSize=20&connected=",
+            "tabname": "Related"
+        }
+    ],
+    "url": "https://www.shazam.com/track/700684526/through-patches-of-violet",
+    "artists": [
+        {
+            "id": "42",
+            "adamid": "906934266"
+        }
+    ],
+    "isrc": "TCJPA2440012",
+    "genres": {
+        "primary": "Anime"
+    },
+    "urlparams": {
+        "{tracktitle}": "Through+Patches+of+Violet",
+        "{trackartist}": "Mili"
+    },
+    "highlightsurls": {},
+    "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-700684526?startFrom=0&pageSize=20&connected=",
+    "albumadamid": "1745712153"
 }
